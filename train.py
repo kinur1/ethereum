@@ -5,7 +5,7 @@ import datetime as date
 import yfinance as yf
 import prophet as Prophet
 import prophet.plot as plot_plotly
-import plotly from plotly import graph_objs as go
+import plotly as go
 
 START = "2015-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
