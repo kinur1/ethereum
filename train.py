@@ -1,10 +1,11 @@
 # pip install streamlit fbprophet yfinance plotly
 import streamlit as st
-from datetime import date
+import datetime from datetime import date
 
-from prophet import Prophet
-from prophet.plot import plot_plotly
-from plotly import graph_objs as go
+import yfinance as yf
+import prophet from prophet import Prophet
+import prophet.plot from prophet.plot import plot_plotly
+import plotly from plotly import graph_objs as go
 
 START = "2015-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
