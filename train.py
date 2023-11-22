@@ -1,10 +1,10 @@
 # pip install streamlit fbprophet yfinance plotly
 import streamlit as st
-import datetime from datetime import date
+import datetime as date
 
 import yfinance as yf
-import prophet from prophet import Prophet
-import prophet.plot from prophet.plot import plot_plotly
+import prophet as Prophet
+import prophet.plot as plot_plotly
 import plotly from plotly import graph_objs as go
 
 START = "2015-01-01"
