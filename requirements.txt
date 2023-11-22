@@ -1,3 +1,4 @@
 streamlit
 prophet
 plotly
+yfinance==0.1.87
